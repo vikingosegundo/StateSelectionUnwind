@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643E025417F3E60100A7A847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E025317F3E60100A7A847 /* Foundation.framework */; };
+		643E025617F3E60100A7A847 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E025517F3E60100A7A847 /* CoreGraphics.framework */; };
+		643E025817F3E60100A7A847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E025717F3E60100A7A847 /* UIKit.framework */; };
+		643E025E17F3E60100A7A847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643E025C17F3E60100A7A847 /* InfoPlist.strings */; };
+		643E026017F3E60100A7A847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E025F17F3E60100A7A847 /* main.m */; };
+		643E026417F3E60100A7A847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E026317F3E60100A7A847 /* AppDelegate.m */; };
+		643E026717F3E60100A7A847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643E026517F3E60100A7A847 /* Main.storyboard */; };
+		643E026A17F3E60100A7A847 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E026917F3E60100A7A847 /* MasterViewController.m */; };
+		643E026F17F3E60100A7A847 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643E026E17F3E60100A7A847 /* Images.xcassets */; };
+		643E027617F3E60100A7A847 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E027517F3E60100A7A847 /* XCTest.framework */; };
+		643E027717F3E60100A7A847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E025317F3E60100A7A847 /* Foundation.framework */; };
+		643E027817F3E60100A7A847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E025717F3E60100A7A847 /* UIKit.framework */; };
+		643E028017F3E60100A7A847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643E027E17F3E60100A7A847 /* InfoPlist.strings */; };
+		643E028217F3E60100A7A847 /* StateSelectionUnwindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E028117F3E60100A7A847 /* StateSelectionUnwindTests.m */; };
+		643E028D17F3E64F00A7A847 /* StateSelctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E028B17F3E64F00A7A847 /* StateSelctionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		643E027917F3E60100A7A847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643E024817F3E60100A7A847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643E024F17F3E60100A7A847;
+			remoteInfo = StateSelectionUnwind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		643E025017F3E60100A7A847 /* StateSelectionUnwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateSelectionUnwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		643E025317F3E60100A7A847 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		643E025517F3E60100A7A847 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		643E025717F3E60100A7A847 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		643E025B17F3E60100A7A847 /* StateSelectionUnwind-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StateSelectionUnwind-Info.plist"; sourceTree = "<group>"; };
+		643E025D17F3E60100A7A847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		643E025F17F3E60100A7A847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		643E026117F3E60100A7A847 /* StateSelectionUnwind-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StateSelectionUnwind-Prefix.pch"; sourceTree = "<group>"; };
+		643E026217F3E60100A7A847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		643E026317F3E60100A7A847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		643E026617F3E60100A7A847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		643E026817F3E60100A7A847 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		643E026917F3E60100A7A847 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		643E026E17F3E60100A7A847 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		643E027417F3E60100A7A847 /* StateSelectionUnwindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateSelectionUnwindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643E027517F3E60100A7A847 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		643E027D17F3E60100A7A847 /* StateSelectionUnwindTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StateSelectionUnwindTests-Info.plist"; sourceTree = "<group>"; };
+		643E027F17F3E60100A7A847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		643E028117F3E60100A7A847 /* StateSelectionUnwindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateSelectionUnwindTests.m; sourceTree = "<group>"; };
+		643E028B17F3E64F00A7A847 /* StateSelctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StateSelctionViewController.m; path = StateSelectionUnwind/StateSelctionViewController.m; sourceTree = "<group>"; };
+		643E028C17F3E64F00A7A847 /* StateSelctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateSelctionViewController.h; path = StateSelectionUnwind/StateSelctionViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643E024D17F3E60100A7A847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643E025617F3E60100A7A847 /* CoreGraphics.framework in Frameworks */,
+				643E025817F3E60100A7A847 /* UIKit.framework in Frameworks */,
+				643E025417F3E60100A7A847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643E027117F3E60100A7A847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643E027617F3E60100A7A847 /* XCTest.framework in Frameworks */,
+				643E027817F3E60100A7A847 /* UIKit.framework in Frameworks */,
+				643E027717F3E60100A7A847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		643E024717F3E60100A7A847 = {
+			isa = PBXGroup;
+			children = (
+				643E028B17F3E64F00A7A847 /* StateSelctionViewController.m */,
+				643E028C17F3E64F00A7A847 /* StateSelctionViewController.h */,
+				643E025917F3E60100A7A847 /* StateSelectionUnwind */,
+				643E027B17F3E60100A7A847 /* StateSelectionUnwindTests */,
+				643E025217F3E60100A7A847 /* Frameworks */,
+				643E025117F3E60100A7A847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		643E025117F3E60100A7A847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643E025017F3E60100A7A847 /* StateSelectionUnwind.app */,
+				643E027417F3E60100A7A847 /* StateSelectionUnwindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643E025217F3E60100A7A847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				643E025317F3E60100A7A847 /* Foundation.framework */,
+				643E025517F3E60100A7A847 /* CoreGraphics.framework */,
+				643E025717F3E60100A7A847 /* UIKit.framework */,
+				643E027517F3E60100A7A847 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		643E025917F3E60100A7A847 /* StateSelectionUnwind */ = {
+			isa = PBXGroup;
+			children = (
+				643E026217F3E60100A7A847 /* AppDelegate.h */,
+				643E026317F3E60100A7A847 /* AppDelegate.m */,
+				643E026517F3E60100A7A847 /* Main.storyboard */,
+				643E026817F3E60100A7A847 /* MasterViewController.h */,
+				643E026917F3E60100A7A847 /* MasterViewController.m */,
+				643E026E17F3E60100A7A847 /* Images.xcassets */,
+				643E025A17F3E60100A7A847 /* Supporting Files */,
+			);
+			path = StateSelectionUnwind;
+			sourceTree = "<group>";
+		};
+		643E025A17F3E60100A7A847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				643E025B17F3E60100A7A847 /* StateSelectionUnwind-Info.plist */,
+				643E025C17F3E60100A7A847 /* InfoPlist.strings */,
+				643E025F17F3E60100A7A847 /* main.m */,
+				643E026117F3E60100A7A847 /* StateSelectionUnwind-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		643E027B17F3E60100A7A847 /* StateSelectionUnwindTests */ = {
+			isa = PBXGroup;
+			children = (
+				643E028117F3E60100A7A847 /* StateSelectionUnwindTests.m */,
+				643E027C17F3E60100A7A847 /* Supporting Files */,
+			);
+			path = StateSelectionUnwindTests;
+			sourceTree = "<group>";
+		};
+		643E027C17F3E60100A7A847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				643E027D17F3E60100A7A847 /* StateSelectionUnwindTests-Info.plist */,
+				643E027E17F3E60100A7A847 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		643E024F17F3E60100A7A847 /* StateSelectionUnwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643E028517F3E60100A7A847 /* Build configuration list for PBXNativeTarget "StateSelectionUnwind" */;
+			buildPhases = (
+				643E024C17F3E60100A7A847 /* Sources */,
+				643E024D17F3E60100A7A847 /* Frameworks */,
+				643E024E17F3E60100A7A847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StateSelectionUnwind;
+			productName = StateSelectionUnwind;
+			productReference = 643E025017F3E60100A7A847 /* StateSelectionUnwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		643E027317F3E60100A7A847 /* StateSelectionUnwindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643E028817F3E60100A7A847 /* Build configuration list for PBXNativeTarget "StateSelectionUnwindTests" */;
+			buildPhases = (
+				643E027017F3E60100A7A847 /* Sources */,
+				643E027117F3E60100A7A847 /* Frameworks */,
+				643E027217F3E60100A7A847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643E027A17F3E60100A7A847 /* PBXTargetDependency */,
+			);
+			name = StateSelectionUnwindTests;
+			productName = StateSelectionUnwindTests;
+			productReference = 643E027417F3E60100A7A847 /* StateSelectionUnwindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		643E024817F3E60100A7A847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = bit.fritze;
+				TargetAttributes = {
+					643E027317F3E60100A7A847 = {
+						TestTargetID = 643E024F17F3E60100A7A847;
+					};
+				};
+			};
+			buildConfigurationList = 643E024B17F3E60100A7A847 /* Build configuration list for PBXProject "StateSelectionUnwind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 643E024717F3E60100A7A847;
+			productRefGroup = 643E025117F3E60100A7A847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				643E024F17F3E60100A7A847 /* StateSelectionUnwind */,
+				643E027317F3E60100A7A847 /* StateSelectionUnwindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643E024E17F3E60100A7A847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643E026F17F3E60100A7A847 /* Images.xcassets in Resources */,
+				643E025E17F3E60100A7A847 /* InfoPlist.strings in Resources */,
+				643E026717F3E60100A7A847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643E027217F3E60100A7A847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643E028017F3E60100A7A847 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643E024C17F3E60100A7A847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643E026417F3E60100A7A847 /* AppDelegate.m in Sources */,
+				643E028D17F3E64F00A7A847 /* StateSelctionViewController.m in Sources */,
+				643E026A17F3E60100A7A847 /* MasterViewController.m in Sources */,
+				643E026017F3E60100A7A847 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643E027017F3E60100A7A847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643E028217F3E60100A7A847 /* StateSelectionUnwindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		643E027A17F3E60100A7A847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643E024F17F3E60100A7A847 /* StateSelectionUnwind */;
+			targetProxy = 643E027917F3E60100A7A847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		643E025C17F3E60100A7A847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643E025D17F3E60100A7A847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		643E026517F3E60100A7A847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643E026617F3E60100A7A847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		643E027E17F3E60100A7A847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643E027F17F3E60100A7A847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		643E028317F3E60100A7A847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		643E028417F3E60100A7A847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		643E028617F3E60100A7A847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateSelectionUnwind/StateSelectionUnwind-Prefix.pch";
+				INFOPLIST_FILE = "StateSelectionUnwind/StateSelectionUnwind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		643E028717F3E60100A7A847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateSelectionUnwind/StateSelectionUnwind-Prefix.pch";
+				INFOPLIST_FILE = "StateSelectionUnwind/StateSelectionUnwind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		643E028917F3E60100A7A847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StateSelectionUnwind.app/StateSelectionUnwind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateSelectionUnwind/StateSelectionUnwind-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StateSelectionUnwindTests/StateSelectionUnwindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		643E028A17F3E60100A7A847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StateSelectionUnwind.app/StateSelectionUnwind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StateSelectionUnwind/StateSelectionUnwind-Prefix.pch";
+				INFOPLIST_FILE = "StateSelectionUnwindTests/StateSelectionUnwindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643E024B17F3E60100A7A847 /* Build configuration list for PBXProject "StateSelectionUnwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643E028317F3E60100A7A847 /* Debug */,
+				643E028417F3E60100A7A847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643E028517F3E60100A7A847 /* Build configuration list for PBXNativeTarget "StateSelectionUnwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643E028617F3E60100A7A847 /* Debug */,
+				643E028717F3E60100A7A847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643E028817F3E60100A7A847 /* Build configuration list for PBXNativeTarget "StateSelectionUnwindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643E028917F3E60100A7A847 /* Debug */,
+				643E028A17F3E60100A7A847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 643E024817F3E60100A7A847 /* Project object */;
+}
