@@ -22,6 +22,7 @@
 		643E028017F3E60100A7A847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 643E027E17F3E60100A7A847 /* InfoPlist.strings */; };
 		643E028217F3E60100A7A847 /* StateSelectionUnwindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E028117F3E60100A7A847 /* StateSelectionUnwindTests.m */; };
 		643E028D17F3E64F00A7A847 /* StateSelctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E028B17F3E64F00A7A847 /* StateSelctionViewController.m */; };
+		64B2ACD917F3F0C90000E757 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64B2ACD817F3F0C90000E757 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		643E028117F3E60100A7A847 /* StateSelectionUnwindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateSelectionUnwindTests.m; sourceTree = "<group>"; };
 		643E028B17F3E64F00A7A847 /* StateSelctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StateSelctionViewController.m; path = StateSelectionUnwind/StateSelctionViewController.m; sourceTree = "<group>"; };
 		643E028C17F3E64F00A7A847 /* StateSelctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateSelctionViewController.h; path = StateSelectionUnwind/StateSelctionViewController.h; sourceTree = "<group>"; };
+		64B2ACD817F3F0C90000E757 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		643E024717F3E60100A7A847 = {
 			isa = PBXGroup;
 			children = (
+				64B2ACD817F3F0C90000E757 /* README.md */,
 				643E028B17F3E64F00A7A847 /* StateSelctionViewController.m */,
 				643E028C17F3E64F00A7A847 /* StateSelctionViewController.h */,
 				643E025917F3E60100A7A847 /* StateSelectionUnwind */,
@@ -235,6 +238,7 @@
 			files = (
 				643E026F17F3E60100A7A847 /* Images.xcassets in Resources */,
 				643E025E17F3E60100A7A847 /* InfoPlist.strings in Resources */,
+				64B2ACD917F3F0C90000E757 /* README.md in Resources */,
 				643E026717F3E60100A7A847 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
